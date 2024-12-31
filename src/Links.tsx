@@ -2,7 +2,7 @@ import { FaGithubAlt } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaRegFileLines } from "react-icons/fa6";
 
-import "./links.css"
+import "./Links.css"
 
 export function Links()
 {
