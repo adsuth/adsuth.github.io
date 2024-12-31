@@ -13,9 +13,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "adsuth.github.io": "file:",
     "gh-pages": "^6.2.0",
+    "jotai": "^2.11.0",
+    "motion": "^11.15.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

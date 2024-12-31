@@ -1,0 +1,26 @@
+.adsuth_logo {
+  aspect-ratio: 1/1;
+  height: 8rem;
+  cursor: grab;
+}
+.adsuth_logo:active {
+  cursor: grabbing;
+}
+
+.drag_constraint_area {
+  height: 90%;
+  width:  90%;
+  
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: -3;
+  border-radius: 3rem;
+}
+
+.logo_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
