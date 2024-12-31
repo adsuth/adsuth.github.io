@@ -31,6 +31,7 @@ export function AdsuthLogo()
       drag
       onPan={handlePan}
       dragConstraints={ _constraintArea }
+      style={{touchAction: "none"}}
     >
       <svg width="100%" height="100%" viewBox="0 0 100 100" className="adsuth_logo">
         <g transform="matrix(0.121508,0,0,0.121508,258.954,-26.1016)">
