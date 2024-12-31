@@ -7,6 +7,7 @@ main {
   text-align: center;
   padding: 5% 10%;
   height: 100%;
+  gap: 2rem;
 
   color: var(--theme-fore);
 }

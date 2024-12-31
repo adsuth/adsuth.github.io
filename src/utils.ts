@@ -1,11 +1,12 @@
 const COLORS = [
   "#ff6262",
-  "#0eb654",
+  "#0add62",
   "#2cceff",
   "#ff62dd",
-  "#a01f25",
   "#ff951c",
   "#9e22cf",
+  "#000127",
+  "#c40960",
 ]
 
 export function selectRandomColor(current=null)

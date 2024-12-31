@@ -19,14 +19,16 @@
 
 }
 
+body {
+  fill: var(--theme-fore);
+  /* fallback */
+  --theme-fore: #fc6767; 
+}
+
 #root {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--theme-fore);
-
-  /* fallback */
-  --theme-fore: #fc6767; 
-  overflow:hidden;
+  /* overflow:hidden; */
 }
