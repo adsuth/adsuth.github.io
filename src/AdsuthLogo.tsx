@@ -1,9 +1,9 @@
-import React, { useState } from "react"
 import * as motion from "motion/react-client"
 import "./AdsuthLogo.css"
 import { constraintRefAtom, themeAtom } from "./atoms"
 import { useAtom } from "jotai"
 import { selectRandomColor } from "./utils"
+import { useState } from "react"
 
 export function AdsuthLogo()
 {

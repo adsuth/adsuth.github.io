@@ -1,5 +1,3 @@
-import React from "react"
-
 import { FaGithubAlt } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaRegFileLines } from "react-icons/fa6";
