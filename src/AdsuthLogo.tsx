@@ -14,7 +14,7 @@ export function AdsuthLogo()
   function handlePan(ev, info)
   {
     const hasEnoughTimeElapsed = ( ev.timeStamp - lastChange ) > 1000
-    const movedQuickly         = ( Math.abs(info.velocity.x) > 3000 || Math.abs(info.velocity.y) > 3000 )
+    const movedQuickly         = ( Math.abs(info.velocity.x) > 1500 || Math.abs(info.velocity.y) > 1500 )
 
     if ( hasEnoughTimeElapsed && movedQuickly )
     {
