@@ -17,7 +17,7 @@ export function UnderConstruction()
     </style>
     <motion.main 
       initial = "unseen"
-      whileInView = "seen"
+      animate = "seen"
       variants={mainVariants}
     >
       <motion.h1 variants={titleVariants}>Hi! :D</motion.h1>
