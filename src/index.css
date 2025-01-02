@@ -23,6 +23,7 @@ body {
   fill: var(--theme-fore);
   /* fallback */
   --theme-fore: #fc6767; 
+  --theme-back: #fff; 
 }
 
 #root {

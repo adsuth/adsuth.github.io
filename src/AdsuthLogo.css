@@ -1,7 +1,10 @@
 .adsuth_logo {
+  position: relative;
+  z-index: -3;
   aspect-ratio: 1/1;
   height: 8rem;
   cursor: grab;
+  opacity: 0.5;
 }
 .adsuth_logo:active {
   cursor: grabbing;

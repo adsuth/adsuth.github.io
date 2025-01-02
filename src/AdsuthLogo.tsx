@@ -27,7 +27,7 @@ export function AdsuthLogo()
     <motion.div
       initial="initial"
       whileDrag={{scale: 1.3,}}
-      dragElastic={0.1}
+      dragElastic={0.6}
       drag
       onPan={handlePan}
       dragConstraints={ _constraintArea }
@@ -39,12 +39,13 @@ export function AdsuthLogo()
         </g>
       </svg>
     </motion.div>
-    <motion.p
+    {/* <motion.p
       className="dragTooltip"
       initial={{y: 50, opacity: 0}}
       animate={{y: 0, opacity: 1}}
       transition={{delay: 10, duration: 1}}
 
-    >Shake me!</motion.p>
+    >Shake me!</motion.p> */}
   </>
 }
+
