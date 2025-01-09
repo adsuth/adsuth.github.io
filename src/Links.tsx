@@ -15,7 +15,7 @@ export function Links()
       <a href="https://www.linkedin.com/in/adsuth/">
         <FaLinkedinIn />
       </a>
-      <a href="/Adam Sutherland's Resume.pdf" download>
+      <a href="/Adam Sutherland Resume.pdf" download>
         <FaRegFileLines />
       </a>
     </div>
