@@ -23,7 +23,7 @@ export function UnderConstruction()
       <motion.h1 variants={titleVariants}>Hi! :D</motion.h1>
 
       <motion.p variants={linkVariants}>
-        I'm <b>Adam Sutherland</b>, a 4th year computer science student at RGU!
+        I'm <b>Adam Sutherland</b>, a junior software engineer at Sword Group!
       </motion.p>
       
       <motion.p variants={linkVariants}>
